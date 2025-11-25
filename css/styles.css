@@ -1,0 +1,22 @@
+@import './normalize.css';
+@import './supreme.css';
+
+:root {
+    --color-blue-50: #f0f9ff;
+    --color-blue-100: #dbf1fe;
+    --color-blue-200: #bae8fd;
+    --color-blue-300: #7cd7fd;
+    --color-blue-400: #37c3f9;
+    --color-blue-500: #0dabea;
+    --color-blue-600: #018ac8;
+    --color-blue-700: #026ea2;
+    --color-blue-800: #065d86;
+    --color-blue-900: #0c4d6e;
+    --color-blue-950: #083149;
+}
+
+html {
+    font-family: 'Supreme-Regular', sans-serif;
+    padding: 20px;
+    background-color: var(--color-blue-50);
+}
