@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content'
+import Card from '../components/Card.astro'
+import Layout from '../layouts/Layout.astro'
+
+const allConfig = await getCollection('config')
+
+console.log(allConfig)
+---
+
+<Layout>
+    <h1>Config Meia Dev</h1>
+
+    <ul class="space-y-4">
+        {
+            allConfig.map((config) => (
+                <li class="p-4 border rounded">
+                    <h2>{config.data.name}</h2>
+                    <ul class="space-y-2 mt-2">
+                        {config.data.components.map((component) => (
+                            <li>
+                                <Card
+                                    name={component.name}
+                                    model={component.model}
+                                    specs={component.specs}
+                                    link={component.link}
+                                />
+                            </li>
+                        ))}
+                    </ul>
+                </li>
+            ))
+        }
+    </ul>
+</Layout>

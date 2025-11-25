@@ -1,0 +1,411 @@
+[
+    {
+        "slug": "gaming-pc",
+        "name": "PC Gaming",
+        "components": [
+            {
+                "name": "Boitier",
+                "model": "NZXT Source 340 Elite",
+                "link": "https://www.digitec.ch/fr/s1/product/nzxt-source-340-elite-atx-matx-boitier-pc-5919531",
+                "specs": [
+                    {
+                        "name": "Case Type",
+                        "value": "Midi Tower"
+                    },
+                    {
+                        "name": "Form Factor",
+                        "value": "ATX, Micro-ATX"
+                    },
+                    {
+                        "name": "Max GPU Length",
+                        "value": "364 mm"
+                    },
+                    {
+                        "name": "Max CPU Cooler Height",
+                        "value": "161 mm"
+                    },
+                    {
+                        "name": "Drive Bays",
+                        "value": "2 x 3.5\", 3 x 2.5\", 1x mixed 3.5\"/2.5\""
+                    },
+                    {
+                        "name": "Watercooling Support",
+                        "value": "Oui"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "30/09/2016"
+                    }
+                ]
+            },
+            {
+                "name": "GPU",
+                "model": "AMD Radeon RX 6750 XT",
+                "link": "https://www.amd.com/fr/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6750-xt.html",
+                "specs": [
+                    {
+                        "name": "Family",
+                        "value": "Radeon RX 6000 Series"
+                    },
+                    {
+                        "name": "Memory",
+                        "value": "12 GB GDDR6"
+                    },
+                    {
+                        "name": "Memory Bus",
+                        "value": "192-bit"
+                    },
+                    {
+                        "name": "Memory Bandwidth",
+                        "value": "432 GB/s"
+                    },
+                    {
+                        "name": "Memory Speed",
+                        "value": "18 Gbps"
+                    },
+                    {
+                        "name": "Compute Units",
+                        "value": 40
+                    },
+                    {
+                        "name": "Stream Processors",
+                        "value": 2560
+                    },
+                    {
+                        "name": "Base Clock",
+                        "value": "2150 MHz"
+                    },
+                    {
+                        "name": "Game Clock",
+                        "value": "2495 MHz"
+                    },
+                    {
+                        "name": "Boost Clock",
+                        "value": "2600 MHz"
+                    },
+                    {
+                        "name": "Infinity Cache",
+                        "value": "96 MB"
+                    },
+                    {
+                        "name": "TDP",
+                        "value": "250 W"
+                    },
+                    {
+                        "name": "Recommended PSU",
+                        "value": "650W"
+                    },
+                    {
+                        "name": "Outputs",
+                        "value": "2x Display Port 1.4a, 2x HDMI 4K120Hz/8K60Hz"
+                    },
+                    {
+                        "name": "Length",
+                        "value": "267 mm"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "05/10/2022"
+                    }
+                ]
+            },
+            {
+                "name": "CPU",
+                "model": "Intel Core i5-8600K",
+                "link": "https://www.digitec.ch/fr/s1/product/intel-core-i5-8600k-lga-1151-360-ghz-6-core-processeur-6448577",
+                "specs": [
+                    {
+                        "name": "Family",
+                        "value": "Intel Core i5 8th Gen"
+                    },
+                    {
+                        "name": "Socket",
+                        "value": "LGA 1151"
+                    },
+                    {
+                        "name": "Cores",
+                        "value": 6
+                    },
+                    {
+                        "name": "Base Clock",
+                        "value": "3.60 GHz"
+                    },
+                    {
+                        "name": "Boost Clock",
+                        "value": "4.30 GHz"
+                    },
+                    {
+                        "name": "PCIe Version",
+                        "value": 3
+                    },
+                    {
+                        "name": "TDP",
+                        "value": "95 W"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "18/08/2017"
+                    }
+                ]
+            },
+            {
+                "name": "Motherboard",
+                "model": "ASUS Maximus X Hero",
+                "link": "https://www.digitec.ch/fr/s1/product/asus-maximus-x-hero-lga-1151-intel-z370-atx-carte-mere-6661271",
+                "specs": [
+                    {
+                        "name": "Socket",
+                        "value": "LGA 1151"
+                    },
+                    {
+                        "name": "Chipset",
+                        "value": "Intel Z370"
+                    },
+                    {
+                        "name": "Form Factor",
+                        "value": "ATX"
+                    },
+                    {
+                        "name": "RAM Slots",
+                        "value": "4x DDR4"
+                    },
+                    {
+                        "name": "PCIe Slots",
+                        "value": "3x PCI Express x16"
+                    },
+                    {
+                        "name": "Connectivity",
+                        "value": "Dual M.2, Wi-Fi 802.11ac, Gigabit LAN, USB 3.1"
+                    },
+                    {
+                        "name": "BIOS",
+                        "value": "UEFI"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "03/10/2017"
+                    }
+                ]
+            },
+            {
+                "name": "RAM",
+                "model": "Corsair Vengeance LPX 16 Go (2×8) 3000 MHz",
+                "link": "https://www.digitec.ch/fr/s1/product/corsair-vengeance-lpx-2-x-8gb-3000-mhz-ram-ddr4-dimm-memoire-vive-5342952",
+                "specs": [
+                    {
+                        "name": "Memory Type",
+                        "value": "DDR4"
+                    },
+                    {
+                        "name": "Capacity",
+                        "value": "2x 8 Go"
+                    },
+                    {
+                        "name": "Speed",
+                        "value": "3000 MHz"
+                    },
+                    {
+                        "name": "CAS Latency",
+                        "value": "15"
+                    },
+                    {
+                        "name": "Voltage",
+                        "value": "1.35 V"
+                    },
+                    {
+                        "name": "XMP",
+                        "value": "Oui"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "31/08/2015"
+                    }
+                ]
+            },
+            {
+                "name": "Ventirad",
+                "model": "be quiet! Pure Rock 2",
+                "link": "https://www.digitec.ch/fr/s1/product/be-quiet-la-roche-pure-155-mm-ventirad-processeur-3451233",
+                "specs": [
+                    {
+                        "name": "Height",
+                        "value": "155 mm"
+                    },
+                    {
+                        "name": "Max TDP",
+                        "value": "150 W"
+                    },
+                    {
+                        "name": "Max Fan Speed",
+                        "value": "1500 RPM"
+                    },
+                    {
+                        "name": "Airflow",
+                        "value": "87.33 m³/h"
+                    },
+                    {
+                        "name": "Power Consumption",
+                        "value": "1.44 W"
+                    },
+                    {
+                        "name": "Noise Level",
+                        "value": "26.8 dB"
+                    },
+                    {
+                        "name": "Connector",
+                        "value": "PWM 4 broches"
+                    },
+                    {
+                        "name": "Socket Compatibility",
+                        "value": "AM4,LGA 1150, LGA 1151, LGA 1155, LGA 1156, LGA 1200, LGA 1366, LGA 2011, LGA 2011-v3"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "13/11/2014"
+                    }
+                ]
+            },
+            {
+                "name": "Alimentation",
+                "model": "be quiet! Straight Power 10 CM 700 W",
+                "link": "https://www.digitec.ch/fr/s1/product/be-quiet-straight-power-10-cm-700-w-alimentation-pc-3226847",
+                "specs": [
+                    {
+                        "name": "Power",
+                        "value": "700 W"
+                    },
+                    {
+                        "name": "Form Factor",
+                        "value": "ATX"
+                    },
+                    {
+                        "name": "Cabling",
+                        "value": "Partiellement modulaire"
+                    },
+                    {
+                        "name": "PCIe Connectors",
+                        "value": "4x 6+2 Broches"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "10/10/2014"
+                    }
+                ]
+            },
+            {
+                "name": "SSD 1 (Windows)",
+                "model": "KINGSTON RBU-SC400S37256G",
+                "link": "https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20RBU-SC400S37256G&id=7186",
+                "specs": [
+                    {
+                        "name": "Capacity",
+                        "value": "256 Go"
+                    },
+                    {
+                        "name": "Form Factor",
+                        "value": "2.5''"
+                    },
+                    {
+                        "name": "Interface",
+                        "value": "SATA III"
+                    },
+                    {
+                        "name": "Read Speed",
+                        "value": "550 MB/s"
+                    },
+                    {
+                        "name": "Write Speed",
+                        "value": "530 MB/s"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "12/04/2014"
+                    }
+                ]
+            },
+            {
+                "name": "SSD 2 (Games)",
+                "model": "Samsung 860 EVO 250 Go",
+                "link": "https://www.digitec.ch/fr/s1/product/samsung-860-evo-basic-250-go-25-ssd-7197969",
+                "specs": [
+                    {
+                        "name": "Capacity",
+                        "value": "250 Go"
+                    },
+                    {
+                        "name": "Form Factor",
+                        "value": "2.5''"
+                    },
+                    {
+                        "name": "Interface",
+                        "value": "SATA III"
+                    },
+                    {
+                        "name": "Read Speed",
+                        "value": "550 MB/s"
+                    },
+                    {
+                        "name": "Write Speed",
+                        "value": "520 MB/s"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "09/01/2018"
+                    }
+                ]
+            },
+            {
+                "name": "HDD",
+                "model": "Seagate Barracuda 4 To",
+                "link": "https://www.digitec.ch/fr/s1/product/seagate-barracuda-4-to-35-disque-dur-6817579",
+                "specs": [
+                    {
+                        "name": "Capacity",
+                        "value": "4 To"
+                    },
+                    {
+                        "name": "Interface",
+                        "value": "SATA III"
+                    },
+                    {
+                        "name": "RPM",
+                        "value": "5400 RPM"
+                    },
+                    {
+                        "name": "Cache",
+                        "value": "256 MB"
+                    },
+                    {
+                        "name": "Sustained Throughput",
+                        "value": "190 MB/s"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "29/06/2017"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "media-station",
+        "name": "Media Station",
+        "components": [
+            {
+                "name": "TV",
+                "model": "Philips 55OLED803",
+                "link": "https://example.com",
+                "specs": [
+                    {
+                        "name": "Resolution",
+                        "value": "4K UHD"
+                    },
+                    {
+                        "name": "Screen Size",
+                        "value": "55 inches"
+                    }
+                ]
+            }
+        ]
+    }
+]

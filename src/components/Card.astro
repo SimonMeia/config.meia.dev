@@ -1,0 +1,27 @@
+---
+import type { CollectionEntry } from 'astro:content'
+
+type Props = CollectionEntry<'config'>['data']['components'][number]
+
+const { name, model, specs, link } = Astro.props as Props
+---
+
+<div class="p-4 border rounded">
+    <h3>{name}</h3>
+    <p>{model}</p>
+    <a href={link} target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">
+        More Info
+    </a>
+    <details>
+        <summary class="cursor-pointer select-none">Specs</summary>
+        <ul>
+            {
+                specs.map((spec: { name: string; value: string | number }) => (
+                    <li>
+                        {spec.name}: {spec.value}
+                    </li>
+                ))
+            }
+        </ul>
+    </details>
+</div>

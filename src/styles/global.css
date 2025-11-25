@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+@import './supreme.css';
+
+@theme {
+    --font-sans: 'Supreme', sans-serif;
+}
