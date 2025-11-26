@@ -8,4 +8,11 @@
     --color-retro-orange: #ed5f34;
     --color-retro-yellow: #ebb436;
     --color-retro-cream: #fef9ef;
+
+    --shadow-sm: 1px 1px 0 rgba(0, 0, 0, 0.25);
+    --shadow-md: 2px 2px 0 rgba(0, 0, 0, 0.25);
+    --shadow: 4px 4px 0 rgba(0, 0, 0, 0.25);
+    --shadow-lg: 6px 6px 0 rgba(0, 0, 0, 0.25);
+    --shadow-xl: 8px 8px 0 rgba(0, 0, 0, 0.25);
+    --shadow-2xl: 12px 12px 0 rgba(0, 0, 0, 0.25);
 }
