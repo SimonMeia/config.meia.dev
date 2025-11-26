@@ -4,7 +4,7 @@
         "name": "PC Gaming",
         "components": [
             {
-                "name": "Boitier",
+                "name": "Case",
                 "model": "NZXT Source 340 Elite",
                 "link": "https://www.digitec.ch/fr/s1/product/nzxt-source-340-elite-atx-matx-boitier-pc-5919531",
                 "specs": [
@@ -388,21 +388,78 @@
         ]
     },
     {
+        "slug": "gaming-peripherals",
+        "name": "Gaming Peripherals",
+        "components": [
+            {
+                "name": "Main Screen",
+                "model": "AOC Q27G42ZE",
+                "link": "https://www.digitec.ch/fr/s1/product/aoc-q27g42ze-2560-x-1440-pixels-27-moniteur-55681588",
+                "specs": [
+                    {
+                        "name": "Resolution",
+                        "value": "2560 x 1440 pixels (WQHD)"
+                    },
+                    {
+                        "name": "Screen Size",
+                        "value": "27 inches (68.6 cm)"
+                    },
+                    {
+                        "name": "Panel Type",
+                        "value": "FAST IPS"
+                    },
+                    {
+                        "name": "Refresh Rate",
+                        "value": "240 Hz"
+                    },
+                    {
+                        "name": "Adaptive Sync",
+                        "value": "FreeSync Premium"
+                    },
+                    {
+                        "name": "Connectivity",
+                        "value": "1x Display Port 1.4, 2x HDMI 2.0"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "07/03/2025"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "slug": "media-station",
         "name": "Media Station",
         "components": [
             {
                 "name": "TV",
-                "model": "Philips 55OLED803",
-                "link": "https://example.com",
+                "model": "Philips 55PUS8510/12",
+                "link": "https://www.philips.fr/c-p/55PUS8510_12/qled-4k-ambilight-tv",
                 "specs": [
                     {
-                        "name": "Resolution",
-                        "value": "4K UHD"
+                        "name": "Screen",
+                        "value": "4K Ultra HD QLED"
                     },
                     {
                         "name": "Screen Size",
-                        "value": "55 inches"
+                        "value": "55 inches (139 cm)"
+                    },
+                    {
+                        "name": "Refresh Rate",
+                        "value": "60 Hz"
+                    },
+                    {
+                        "name": "Ambilight",
+                        "value": "3-sided"
+                    },
+                    {
+                        "name": "OS",
+                        "value": "TITAN OS"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "05/05/2025"
                     }
                 ]
             }

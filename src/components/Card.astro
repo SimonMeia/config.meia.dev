@@ -1,24 +1,30 @@
 ---
 import type { CollectionEntry } from 'astro:content'
-
+import externalLinkIcon from '../assets/external_link.svg'
 type Props = CollectionEntry<'config'>['data']['components'][number]
 
 const { name, model, specs, link } = Astro.props as Props
 ---
 
-<div class="p-4 border rounded">
-    <h3>{name}</h3>
-    <p>{model}</p>
-    <a href={link} target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">
-        More Info
+<div class="p-4 border-2 border-retro-yellow bg-white relative">
+    <a href={link} target="_blank" rel="noopener noreferrer" class="absolute top-4 right-4">
+        <img src={externalLinkIcon.src} alt="External Link" />
     </a>
-    <details>
-        <summary class="cursor-pointer select-none">Specs</summary>
-        <ul>
+
+    <h3 class="text-neutral-500">{name}</h3>
+    <p class="mb-4 font-semibold text-lg pr-12 text-pretty">{model}</p>
+
+    <details class="border-retro-blue border-2">
+        <summary
+            class="cursor-pointer select-none bg-retro-blue py-1 px-2 text-white font-semibold"
+        >
+            Specs
+        </summary>
+        <ul class="p-4">
             {
                 specs.map((spec: { name: string; value: string | number }) => (
                     <li>
-                        {spec.name}: {spec.value}
+                        <b>{spec.name}:</b> {spec.value}
                     </li>
                 ))
             }

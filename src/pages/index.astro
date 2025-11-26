@@ -9,13 +9,27 @@ console.log(allConfig)
 ---
 
 <Layout>
-    <h1>Config Meia Dev</h1>
+    <h1 class="text-4xl text-center mt-16 font-black">Config Meia Dev</h1>
+    <p class="text-gray-400 text-center mb-16 mt-2">Update date : 25th november 2025</p>
 
-    <ul class="space-y-4">
+    <nav class="grid mb-16 grid-cols-3 gap-4">
         {
             allConfig.map((config) => (
-                <li class="p-4 border rounded">
-                    <h2>{config.data.name}</h2>
+                <a
+                    class="bg-white border-2 border-retro-orange p-2 hover:bg-retro-orange/5"
+                    href={`#${config.data.slug}`}
+                >
+                    {config.data.name}
+                </a>
+            ))
+        }
+    </nav>
+
+    <ul class="space-y-24">
+        {
+            allConfig.map((config) => (
+                <li id={config.data.slug}>
+                    <h2 class="text-2xl font-black text-retro-orange">{config.data.name}</h2>
                     <ul class="space-y-2 mt-2">
                         {config.data.components.map((component) => (
                             <li>
