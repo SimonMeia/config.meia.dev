@@ -1,7 +1,7 @@
 [
     {
         "slug": "gaming-pc",
-        "name": "PC Gaming",
+        "name": "Gaming PC",
         "components": [
             {
                 "name": "Case",
@@ -425,6 +425,98 @@
                         "value": "07/03/2025"
                     }
                 ]
+            },
+            {
+                "name": "Keyboard",
+                "model": "Logitech G G413 SE",
+                "link": "https://www.digitec.ch/fr/s1/product/logitech-g-g413-se-ch-filaire-clavier-22596600",
+                "specs": [
+                    {
+                        "name": "Keyboard Type",
+                        "value": "Mechanical, Universal"
+                    },
+                    {
+                        "name": "Key Layout",
+                        "value": "QWERTZ"
+                    },
+                    {
+                        "name": "Backlight",
+                        "value": "White"
+                    },
+                    {
+                        "name": "Connectivity",
+                        "value": "Wired USB"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "07/09/2022"
+                    }
+                ]
+            },
+            {
+                "name": "Mouse",
+                "model": "Razer Basilic V2",
+                "link": "https://www.digitec.ch/fr/s1/product/razer-basilic-v2-filaire-souris-12561329",
+                "specs": [
+                    {
+                        "name": "Sensor",
+                        "value": "HERO 25K"
+                    },
+                    {
+                        "name": "Max DPI",
+                        "value": 20000
+                    },
+                    {
+                        "name": "Weight",
+                        "value": "92 g"
+                    },
+                    {
+                        "name": "Connectivity",
+                        "value": "Wired USB"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "15/03/2021"
+                    }
+                ]
+            },
+            {
+                "name": "Headset",
+                "model": "HyperX Cloud II",
+                "link": "https://www.digitec.ch/fr/s1/product/hyperx-cloud-ii-filaire-casque-gaming-3517140",
+                "specs": [
+                    {
+                        "name": "Type",
+                        "value": "Over-Ear"
+                    },
+                    {
+                        "name": "Connectivity",
+                        "value": "USB-A / Jack 3.5 mm"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "14/10/2021"
+                    }
+                ]
+            },
+            {
+                "name": "Conrtroller",
+                "model": "Microsoft Xbox Wireless Controller + USB-C Kabel",
+                "link": "https://www.digitec.ch/fr/s1/product/microsoft-xbox-wireless-controller-usb-c-kabel-pc-xbox-one-x-xbox-series-x-android-ios-xbox-series-s-13875091",
+                "specs": [
+                    {
+                        "name": "Compatibility",
+                        "value": "PC, Xbox One X|S, Xbox Series X|S, Android, iOS"
+                    },
+                    {
+                        "name": "Connectivity",
+                        "value": "Wireless (Bluetooth) / Wired USB-C"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "25/09/2020"
+                    }
+                ]
             }
         ]
     },
@@ -460,6 +552,72 @@
                     {
                         "name": "Release Date",
                         "value": "05/05/2025"
+                    }
+                ]
+            },
+            {
+                "name": "NAS",
+                "model": "Synology DS224+",
+                "link": "https://www.digitec.ch/fr/s1/product/synology-ds224-0-tb-nas-37059761",
+                "specs": [
+                    {
+                        "name": "Drive Bays",
+                        "value": "2"
+                    },
+                    {
+                        "name": "Drive Type",
+                        "value": "3.5''/2.5'' SATA HDD/SSD"
+                    },
+                    {
+                        "name": "Max Capacity",
+                        "value": "12 TB (6 TB drive x 2)"
+                    },
+                    {
+                        "name": "Processor",
+                        "value": "Intel Celeron J4125"
+                    },
+                    {
+                        "name": "RAM",
+                        "value": "2 GB DDR4"
+                    },
+                    {
+                        "name": "Max RAM",
+                        "value": "6 GB DDR4"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "09/08/2023"
+                    }
+                ]
+            },
+            {
+                "name": "NAS HDDs",
+                "model": "Synology Plus Series HAT3300-4T",
+                "link": "https://www.digitec.ch/fr/s1/product/synology-plus-series-hat3300-4t-4-to-35-disque-dur-35797293",
+                "specs": [
+                    {
+                        "name": "Capacity",
+                        "value": "4 To"
+                    },
+                    {
+                        "name": "Interface",
+                        "value": "SATA III"
+                    },
+                    {
+                        "name": "RPM",
+                        "value": "5400 RPM"
+                    },
+                    {
+                        "name": "Cache",
+                        "value": "256 MB"
+                    },
+                    {
+                        "name": "Sustained Throughput",
+                        "value": "202 MB/s"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "21/09/2023"
                     }
                 ]
             }
