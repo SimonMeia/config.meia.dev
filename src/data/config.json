@@ -556,6 +556,37 @@
                 ]
             },
             {
+                "name": "Soundbar",
+                "model": "LG S40T",
+                "link": "https://www.galaxus.ch/fr/s1/product/lg-s40t-300-w-canal-21-barre-de-son-45446555",
+                "specs": [
+                    {
+                        "name": "Channels",
+                        "value": "2.1"
+                    },
+                    {
+                        "name": "Power Output",
+                        "value": "300 W"
+                    },
+                    {
+                        "name": "Connectivity",
+                        "value": "Bluetooth, USB, HDMI ARC"
+                    },
+                    {
+                        "name": "Audio Technologies",
+                        "value": "Dolby Digital, DTS Digital"
+                    },
+                    {
+                        "name": "Audio Formats",
+                        "value": "AAC, SBC"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "07/10/2021"
+                    }
+                ]
+            },
+            {
                 "name": "NAS",
                 "model": "Synology DS224+",
                 "link": "https://www.digitec.ch/fr/s1/product/synology-ds224-0-tb-nas-37059761",

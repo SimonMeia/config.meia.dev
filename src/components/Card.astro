@@ -6,7 +6,7 @@ type Props = CollectionEntry<'config'>['data']['components'][number]
 const { name, model, specs, link } = Astro.props as Props
 ---
 
-<div class="p-4 border-3 border-retro-yellow bg-white relative shadow-lg shadow-retro-yellow">
+<div class="p-4 border-3 border-retro-yellow bg-white relative shadow-lg shadow-retro-yellow-dark">
     <a href={link} target="_blank" rel="noopener noreferrer" class="absolute top-4 right-4">
         <img src={externalLinkIcon.src} alt="External Link" />
     </a>
