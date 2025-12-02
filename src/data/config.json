@@ -325,6 +325,37 @@
             },
             {
                 "name": "SSD 2 (Games)",
+                "model": "Verbatim Vi3000 NVMe M.2 SSD 1 To",
+                "link": "https://www.amazon.de/dp/B0BY6QB7HZ?th=1",
+                "specs": [
+                    {
+                        "name": "Capacity",
+                        "value": "1 To"
+                    },
+                    {
+                        "name": "Form Factor",
+                        "value": "M.2 2280"
+                    },
+                    {
+                        "name": "Interface",
+                        "value": "NVMe PCIe 3.0 x4"
+                    },
+                    {
+                        "name": "Read Speed",
+                        "value": "3100 MB/s"
+                    },
+                    {
+                        "name": "Write Speed",
+                        "value": "3000 MB/s"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "07/03/2023"
+                    }
+                ]
+            },
+            {
+                "name": "SSD 3 (Games)",
                 "model": "Samsung 860 EVO 250 Go",
                 "link": "https://www.digitec.ch/fr/s1/product/samsung-860-evo-basic-250-go-25-ssd-7197969",
                 "specs": [
