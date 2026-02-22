@@ -40,72 +40,32 @@
             },
             {
                 "name": "GPU",
-                "model": "AMD Radeon RX 6750 XT",
-                "link": "https://www.amd.com/fr/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6750-xt.html",
+                "model": "ASUS GeForce DUAL RTX 3060 Ti O8G MINI V2",
+                "link": "https://www.digitec.ch/fr/s1/product/asus-geforce-dual-rtx-3060-ti-o8g-mini-v2-8-go-carte-graphique-16209532",
                 "specs": [
                     {
-                        "name": "Family",
-                        "value": "Radeon RX 6000 Series"
-                    },
-                    {
                         "name": "Memory",
-                        "value": "12 GB GDDR6"
+                        "value": "8 Go GDDR6"
                     },
                     {
                         "name": "Memory Bus",
-                        "value": "192-bit"
+                        "value": "256-bit"
                     },
                     {
                         "name": "Memory Bandwidth",
-                        "value": "432 GB/s"
-                    },
-                    {
-                        "name": "Memory Speed",
-                        "value": "18 Gbps"
-                    },
-                    {
-                        "name": "Compute Units",
-                        "value": 40
-                    },
-                    {
-                        "name": "Stream Processors",
-                        "value": 2560
-                    },
-                    {
-                        "name": "Base Clock",
-                        "value": "2150 MHz"
-                    },
-                    {
-                        "name": "Game Clock",
-                        "value": "2495 MHz"
-                    },
-                    {
-                        "name": "Boost Clock",
-                        "value": "2600 MHz"
-                    },
-                    {
-                        "name": "Infinity Cache",
-                        "value": "96 MB"
-                    },
-                    {
-                        "name": "TDP",
-                        "value": "250 W"
-                    },
-                    {
-                        "name": "Recommended PSU",
-                        "value": "650W"
+                        "value": "14 GB/s"
                     },
                     {
                         "name": "Outputs",
-                        "value": "2x Display Port 1.4a, 2x HDMI 4K120Hz/8K60Hz"
+                        "value": "3x Display Port 1.4a, 2x HDMI 2.1"
                     },
                     {
                         "name": "Length",
-                        "value": "267 mm"
+                        "value": "20 cm"
                     },
                     {
                         "name": "Release Date",
-                        "value": "05/10/2022"
+                        "value": "16/06/2021"
                     }
                 ]
             },
@@ -293,7 +253,38 @@
                 ]
             },
             {
-                "name": "SSD 1 (Windows)",
+                "name": "SSD 1 (Pop!_OS)",
+                "model": "Samsung 860 EVO 250 Go",
+                "link": "https://www.digitec.ch/fr/s1/product/samsung-860-evo-basic-250-go-25-ssd-7197969",
+                "specs": [
+                    {
+                        "name": "Capacity",
+                        "value": "250 Go"
+                    },
+                    {
+                        "name": "Form Factor",
+                        "value": "2.5''"
+                    },
+                    {
+                        "name": "Interface",
+                        "value": "SATA III"
+                    },
+                    {
+                        "name": "Read Speed",
+                        "value": "550 MB/s"
+                    },
+                    {
+                        "name": "Write Speed",
+                        "value": "520 MB/s"
+                    },
+                    {
+                        "name": "Release Date",
+                        "value": "09/01/2018"
+                    }
+                ]
+            },
+            {
+                "name": "SSD 2 (Programming)",
                 "model": "KINGSTON RBU-SC400S37256G",
                 "link": "https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20RBU-SC400S37256G&id=7186",
                 "specs": [
@@ -324,7 +315,7 @@
                 ]
             },
             {
-                "name": "SSD 2 (Games)",
+                "name": "SSD 3 (Games)",
                 "model": "Verbatim Vi3000 NVMe M.2 SSD 1 To",
                 "link": "https://www.amazon.de/dp/B0BY6QB7HZ?th=1",
                 "specs": [
@@ -351,37 +342,6 @@
                     {
                         "name": "Release Date",
                         "value": "07/03/2023"
-                    }
-                ]
-            },
-            {
-                "name": "SSD 3 (Games)",
-                "model": "Samsung 860 EVO 250 Go",
-                "link": "https://www.digitec.ch/fr/s1/product/samsung-860-evo-basic-250-go-25-ssd-7197969",
-                "specs": [
-                    {
-                        "name": "Capacity",
-                        "value": "250 Go"
-                    },
-                    {
-                        "name": "Form Factor",
-                        "value": "2.5''"
-                    },
-                    {
-                        "name": "Interface",
-                        "value": "SATA III"
-                    },
-                    {
-                        "name": "Read Speed",
-                        "value": "550 MB/s"
-                    },
-                    {
-                        "name": "Write Speed",
-                        "value": "520 MB/s"
-                    },
-                    {
-                        "name": "Release Date",
-                        "value": "09/01/2018"
                     }
                 ]
             },
