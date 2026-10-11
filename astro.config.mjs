@@ -1,5 +1,5 @@
 // @ts-check
-import { defineConfig } from 'astro/config'
+import { defineConfig, envField } from 'astro/config'
 
 import tailwindcss from '@tailwindcss/vite'
 
@@ -9,4 +9,13 @@ export default defineConfig({
         plugins: [tailwindcss()],
     },
     site: 'https://config.meia.dev',
+    env: {
+        schema: {
+            PUBLIC_CONFIG_API_URL: envField.string({
+                context: 'client',
+                access: 'public',
+                url: true,
+            }),
+        },
+    },
 })

@@ -1,49 +1,60 @@
 ---
-import { getCollection } from 'astro:content'
+import { PUBLIC_CONFIG_API_URL } from 'astro:env/client'
 import Card from '../components/Card.astro'
 import Layout from '../layouts/Layout.astro'
+import { configApiUrlSchema } from '../lib/api-url'
 
-const allConfig = await getCollection('config')
-
-console.log(allConfig)
+// Validate the public endpoint at build time, without contacting the API.
+const apiUrl = configApiUrlSchema.parse(PUBLIC_CONFIG_API_URL)
 ---
 
 <Layout>
-    <h1 class="text-4xl text-center sm:mt-16 mt-8 font-black">Simon's config</h1>
-    <p class="text-gray-400 text-center mb-16 mt-2">Update date : 22.06.2026</p>
+    <main data-config-view data-api-url={apiUrl}>
+        <h1 class="text-4xl text-center sm:mt-16 mt-8 font-black">Simon's config</h1>
+        <p data-update-date hidden class="text-gray-400 text-center mb-16 mt-2"></p>
 
-    <nav class="grid mb-10 sm:grid-cols-3 gap-4">
-        {
-            allConfig.map((config) => (
-                <a
-                    class="bg-white border-2 border-retro-orange p-2 hover:bg-retro-orange/5"
-                    href={`#${config.data.slug}`}
-                >
-                    {config.data.name}
-                </a>
-            ))
-        }
-    </nav>
+        <div data-feedback class="text-center">
+            <p data-status role="status" aria-live="polite" aria-atomic="true" class="empty:hidden my-8">Loading configuration…</p>
+            <button
+                data-retry
+                hidden
+                disabled
+                type="button"
+                class="mt-4 bg-white border-2 border-retro-orange px-4 py-2 hover:bg-retro-orange/5 disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-retro-blue"
+            >Retry</button>
+        </div>
 
-    <ul class="space-y-18">
-        {
-            allConfig.map((config) => (
-                <li id={config.data.slug}>
-                    <h2 class="text-2xl font-black text-retro-orange pt-6">{config.data.name}</h2>
-                    <ul class="space-y-4 mt-2">
-                        {config.data.components.map((component) => (
-                            <li>
-                                <Card
-                                    name={component.name}
-                                    model={component.model}
-                                    specs={component.specs}
-                                    link={component.link}
-                                />
-                            </li>
-                        ))}
-                    </ul>
-                </li>
-            ))
-        }
-    </ul>
+        <noscript>
+            <p class="text-center my-8">JavaScript is required to load the configuration. Please enable it and reload this page.</p>
+            <style is:inline>[data-feedback] { display: none; }</style>
+        </noscript>
+
+        <div data-content aria-busy="true">
+            <nav data-navigation hidden aria-label="Configuration categories" class="grid mb-10 sm:grid-cols-3 gap-4"></nav>
+            <ul data-categories class="space-y-18"></ul>
+        </div>
+
+        <template data-navigation-template>
+            <a class="bg-white border-2 border-retro-orange p-2 hover:bg-retro-orange/5"></a>
+        </template>
+        <template data-category-template>
+            <li>
+                <h2 data-category-name class="text-2xl font-black text-retro-orange pt-6"></h2>
+                <ul data-components class="space-y-4 mt-2"></ul>
+            </li>
+        </template>
+        <template data-card-template>
+            <li><Card /></li>
+        </template>
+        <template data-spec-template>
+            <li><b data-spec-name></b><span data-spec-value></span></li>
+        </template>
+    </main>
 </Layout>
+
+<script>
+    import { initConfigView } from '../scripts/config-view'
+
+    const view = document.querySelector<HTMLElement>('[data-config-view]')
+    if (view) initConfigView(view)
+</script>
